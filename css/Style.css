@@ -1,0 +1,489 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*Header*/
+
+header {
+	display:flex;
+}
+
+#divheader {
+	width: 100vw;
+	height: auto;
+	position: absolute;
+}
+
+#logotip {
+	position: absolute;
+  padding: 1% 0% 0% 12%;
+}
+
+.navheader {
+	margin-top: 2.6%;
+	margin-left: 19%;
+	padding: 1;
+	height: 4vh;
+	width: 75vw;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+}
+
+.navheader ul {
+	position: absolute;
+	list-style:none;
+	display:flex;
+}
+
+.linksmenu1 a {
+	color: white;	
+	margin: 0px 30px;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.linksmenu2 a {
+	color: white;	
+	margin: 0px 30px;
+	font-weight: regular;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+/* /Header*/
+
+video {
+  position:fixed;
+	top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	object-fit: cover;
+}
+
+/*Info*/
+
+#about {
+	top: 20%;
+	left: 7%;
+	width: 46%;
+	height: auto;
+	padding: 1px;
+  position: absolute;
+  display: flex;
+	}
+
+#artistes {
+	bottom: 10%;
+	right: 8%;
+	width: 46%;
+	height: auto;	
+  position: absolute;
+  display: flex;
+	}
+
+/* /Info*/
+
+h1{
+	font-size: 4rem;
+	line-height: 70px;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	}
+
+h2{
+	color: #DAB128;
+	font-size: 4rem;
+	line-height: 70px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	}
+
+p {
+	font-size: 22px;
+	line-height: 29px;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	}
+
+/*Grups Raperos*/
+
+#grups {
+	position: relative;
+	width: 100%;
+	height: auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	flex-direction: row;
+	padding:5% 5% 0% 5%;
+	margin-top: 50%;
+}
+
+.grup {
+	height: auto;
+	padding-bottom:6%;
+	width: calc(43% - 10px);
+}
+
+#grups img {
+	width: 100%;
+	position: relative;
+}
+
+.txt {
+	position: relative;
+	z-index: 1;
+	top: -10%;
+	width: 100%;
+}
+
+/* /Grups Raperos*/
+
+/*Mapa*/
+
+#MAPA {
+	position: relative;
+	width: auto;
+	height: auto;
+	display: flex;
+	background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+#txtlaut {
+	width: 51%;
+	height: auto;
+	margin: 5% 1% 1% 7%;
+  position: absolute;
+  z-index: 2;
+}
+
+#txtlaut p {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+
+#vintisis {
+	margin: 20% 1% 1% 65%;
+	z-index: 3;
+	position: absolute;
+	height: auto;
+	width: 20.5vw;
+} 
+
+h3 {
+	font-size: 6rem;
+	line-height: 89px;
+	color: transparent;
+	-webkit-text-stroke: 1.5px white;
+  text-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+#MapaLaut {
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	opacity: 50%;
+	position: relative;
+}
+
+/* /Mapa*/
+
+/*Footer*/
+
+.icones { 
+	z-index: 4;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	justify-self: center;	
+	bottom: 0%;
+}
+
+#logos	{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+#logos img {
+	width: 70%;
+}
+
+#logos li {
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	margin-bottom: 0.7rem;
+}
+
+/* /Footer*/
+
+/*Notícies*/
+
+#registre {
+	top: 40%;
+	left: 7%;
+	width: 45%;
+	height: auto;	
+  position: absolute;
+  display: flex;
+	}
+
+
+#formulari {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 35%;
+	right: 8%;
+}
+
+#formulari ul {
+	list-style: none;
+}
+
+#formulari li {
+	padding-bottom: 8px;
+}
+
+.quadrat {
+  width: 450px;
+  height: 50px;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* /Notícies*/
+
+/*Contacte*/
+
+#contacte {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	align-items: center;
+}
+
+#contacte h1 {
+	text-align: center;
+}
+
+#contacte ul {
+	list-style: none;
+}
+
+#contacte li {
+	padding-bottom: 8px;
+}
+
+.quadratcontacte {
+	width: 600px;
+  height: 50px;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quadratgran {
+  width: 600px;
+  height: 150px;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* /Contacte*/
+
+/*Termes*/
+
+.navheadertermes a {
+	color: black;	
+}
+
+#TERMESCAIXA {
+	margin-top: 6%;
+	position: absolute;
+	width: 80vw;
+	height: auto;
+  left: 50%;
+  transform: translate( -50%);
+  padding: 3rem;
+}
+
+h4 {
+	color: white;
+	font-size: 2rem;
+	line-height: 60px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+#TERMESCAIXA p {
+	color: white;
+	font-size: 18px;
+	line-height: 29px;
+}
+
+h5 {
+	color: white;
+	font-size: 1.3rem;
+	line-height: auto;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* /Termes*/
+
+	@media screen and (max-width: 880px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Header */
+
+  header {
+  	align-items: center;
+  	flex-direction: column;
+  }
+  .navheader ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18%;
+  }
+
+  #logotip {
+    padding: 5% 0;
+    text-align: center;
+  }
+
+  h1 {
+  	font-size: 3rem;
+  }
+
+  .navheader {
+    position: static;
+    margin: 5% auto;
+    width: auto;
+  }
+
+  .linksmenu1 a,
+  .linksmenu2 a {
+    font-size: 23px;
+  }
+
+  /* Info */
+
+  #about {
+  	position: absolute; 
+    width: 94%;
+    left: 24px;
+  	margin-top: 45%;
+  	padding: 5% 5%;
+  }
+  #artistes {
+    position: relative; 
+    width: 94%; 
+    left: 20px;
+  	margin-top: 710px;
+  	padding: 5% 5%;
+  }
+
+  /* Grups Raperos */
+  #grups {
+    padding: 5% 5%;
+    margin-top: 10%;
+  }
+
+  h2 {
+  	font-size: 3rem;
+  }
+
+  .grup {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /* Mapa */
+  #txtlaut {
+    width: 90%;
+    padding: 5%;
+  }
+
+  #txtlaut p {
+  	font-size: 18px;
+  }
+
+  #vintisis {
+  	opacity: 0%;
+  }
+
+  #MapaLaut {
+  	opacity: 0%;
+  }
+
+  h3 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+
+  /* Footer */
+
+  .icones {
+  	margin-bottom: 0%;
+  }
+
+  #logos img {
+    width: 50%;
+  }
+
+  /* Notícies */
+  #registre {
+  	opacity: 0%;
+  }
+
+  #formulari {
+    top: 47%;
+    width: 90%;
+    margin: 6% auto;
+    left: 7.5%;
+  }
+
+  .quadrat {
+    width: 90%;
+  }
+
+  /* Contacte */
+  #contacte {
+  	top: 77%;
+    width: 90%;
+    margin: 6% auto;
+    margin-left: atan2();%;
+  }
+
+  .quadratcontacte,
+  .quadratgran {
+    width: 100%;
+  }
+
+  /* Termes */
+  #TERMESCAIXA {
+  	top: 45%;
+    width: 90%;
+    margin: 5% auto;
+    padding: 1rem
+  }
